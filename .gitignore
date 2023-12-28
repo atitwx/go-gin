@@ -1,0 +1,85 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, build with `go test -c`
+*.test
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.out
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Compiled Go source code
+*.cgo.go
+
+# Compiled Object files, Static and Dynamic libs (Shared Objects)
+*.o
+*.a
+*.lib
+
+# Ignore local .env files
+.env
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Go specific
+# Binary
+/bin/
+# Object files
+*.obj
+# Linker output
+*.exe
+# Test binary
+*.test
+# Testing
+/tmp/
+*.log
+*.prof
+
+# Project state and settings
+.idea/
+
+# RubyMine
+.idea/
+
+# User-specific files
+*.rspec
+*.orig
+*.log
+*.swp
+*.bak
+*.md
+*_test.go
+
+# User-specific Runtime Directories
+node_modules/
+bower_components/
+
+# Visual Studio Code
+.vscode/
